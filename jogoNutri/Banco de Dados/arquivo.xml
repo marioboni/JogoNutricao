@@ -1,0 +1,92 @@
+<Banco>
+    
+  <numeroPerguntas>71</numeroPerguntas>
+  <numeroGrupos>2</numeroGrupos>
+
+  <Grupo0 nome="Sedentarismo/Atividades Fisicas">
+     
+    <pergunta nivel="Facil">A prática de atividade física é importante para a saúde do coração</pergunta>
+    <pergunta nivel="Facil">É importante beber água durante e após as atividades físicas </pergunta>
+    <pergunta nivel="Facil">Para emagrecer, devo fazer mais atividades físicas e me alimentar melhor</pergunta>
+    <pergunta nivel="Facil">Ficar muito tempo no computador ou vendo televisão prejudica a minha saúde</pergunta>
+    <pergunta nivel="Facil">Minha mãe está acima do peso e, sendo assim, deve fazer atividade física </pergunta>
+    <pergunta nivel="Facil">A atividade física deixa a pessoa mais bem humorada</pergunta>
+
+    <pergunta nivel="Intermediario">O exercício físico pode ajudar a melhorar a qualidade do sono</pergunta>
+    <pergunta nivel="Intermediario">Só devo fazer exercícios físicos 3 vezes por semana para não ficar muito cansado</pergunta>
+    <pergunta nivel="Intermediario">A musculação é muito pesada e só os atletas devem fazer</pergunta>
+    <pergunta nivel="Intermediario">O máximo de tempo que eu devo ficar no computador, tablet ou televisão são 2 horas por dia.</pergunta>
+    <pergunta nivel="Intermediario">Depois que faço exercícios posso comer um pacote de biscoito que não vou engordar</pergunta>
+    <pergunta nivel="Intermediario">Fazer atividades em casa, como varrer, lavar louças, lavar banheiro... não pode ser considerado atividades físicas</pergunta>
+    <pergunta nivel="Intermediario">Jogos e brincadeiras, como: pular corda, soltar pipa, bambolê, queimado... são tão importantes para a saúde quanto a prática de esportes (futebol, vôlei, basquete...)</pergunta>
+    <pergunta nivel="Intermediario">A prática de atividades físicas ajuda na aprendizagem escolar</pergunta>
+
+    <pergunta nivel="Dificil">Devo fazer abdominal para perder a gordura da barriga</pergunta>
+    <pergunta nivel="Dificil">Fazer exercício no calor é melhor para perder peso</pergunta>
+    <pergunta nivel="Dificil">Quanto mais tempo eu fico na sauna, mais eu emagreço</pergunta>
+    <pergunta nivel="Dificil">A corrida é um esporte de muito impacto, portanto, devo evitá-la</pergunta>
+    <pergunta nivel="Dificil">Meu pai tem pressão alta. Ele deveria levantar do sofá e fazer mais atividade física</pergunta>
+    <pergunta nivel="Dificil">Inatividade física e sedentarismo é a mesma coisa. </pergunta>
+    <pergunta nivel="Dificil">Os isotônicos, como Gatorade, são importantes para o bom desempenho no esporte</pergunta>
+    <pergunta nivel="Dificil">No dia que eu praticar muita atividade física, posso ficar muito tempo no sofá.</pergunta>
+    <pergunta nivel="Dificil">Minha avó tem diabetes e, portanto, não deve fazer exercício</pergunta>
+
+  </Grupo0>
+
+
+  <Grupo1 nome="Quiz">
+
+    <pergunta nivel="Facil">Devo comer arroz com feijão diariamente </pergunta>
+    <pergunta nivel="Facil">É saudável experimentar novos alimentos como frutas, legumes e verduras. </pergunta>
+    <pergunta nivel="Facil">Frutas no lanche são melhores para a saúde do que biscoitos</pergunta>
+    <pergunta nivel="Facil">Quando bebo suco natural, posso colocar bastante açúcar</pergunta>
+    <pergunta nivel="Facil">As frutas, os legumes e as verduras devem estar presentes todos os dias em minhas refeições</pergunta>
+    <pergunta nivel="Facil">Comer fruta na hora do recreio é uma boa idéia!</pergunta>
+    <pergunta nivel="Facil">Água é mais saudável do que refrigerantes</pergunta>
+    <pergunta nivel="Facil">Devo beber mais bebidas açucaradas do que água.</pergunta>
+    <pergunta nivel="Facil">Para uma alimentação saudável é importante comer mais biscoitos </pergunta>
+    <pergunta nivel="Facil">recheados e batatas fritas com bastante sal.</pergunta>
+    <pergunta nivel="Facil">Comer alimentos naturais é importante para a saúde. </pergunta>
+    <pergunta nivel="Facil">É importante tomar leite todos os dias</pergunta>
+    <pergunta nivel="Facil">É bom comer ouvindo música agitada </pergunta>
+    <pergunta nivel="Facil">Uma alimentação com poucas frutas, verduras e legumes evita doenças   </pergunta>
+    <pergunta nivel="Facil">O excesso de açúcar presente nos refrigerantes pode causar cáries    </pergunta>
+    
+    <pergunta nivel="Intermediario">É importante diminuir a quantidade de sal na comida e retirar o saleiro da mesa.</pergunta>
+    <pergunta nivel="Intermediario">Não tomar café da manhã faz bem à saúde.</pergunta>
+    <pergunta nivel="Intermediario">É importante beber água apenas quando eu sinto sede. </pergunta>
+    <pergunta nivel="Intermediario">É muito bom para a saúde comer miojo  </pergunta>
+    <pergunta nivel="Intermediario">Refrigerantes devem ser consumidos diariamente. </pergunta>
+    <pergunta nivel="Intermediario">Realizar refeições com minha família na mesa de jantar estimula a boa alimentação</pergunta>
+    <pergunta nivel="Intermediario">Achocolatados como nescau e toddy tem pouco açúcar, então preciso colocar mais </pergunta>
+    <pergunta nivel="Intermediario">Os sucos de caixinha são tão bons para a saúde quanto os sucos naturais de frutas</pergunta>
+    <pergunta nivel="Intermediario">A refeição servida na merenda da minha escola fornece os nutrientes que preciso</pergunta>
+    <pergunta nivel="Intermediario">Devo comer uma variedade de alimentos embutidos</pergunta>
+    <pergunta nivel="Intermediario">O suco industrializado (p.ex.: pozinho, lata, caixinha...) é saudável igual ao da fruta.</pergunta>
+    <pergunta nivel="Intermediario">As bebidas adoçadas com açúcar são ricos em vitaminas e são boas para o meu crescimento.</pergunta>
+    <pergunta nivel="Intermediario">As bebidas adoçadas com açúcar contribuem para a obesidade</pergunta>
+
+    <pergunta nivel="Dificil">Comer assistindo TV não faz bem</pergunta>
+    <pergunta nivel="Dificil">Tomar um copo de suco de caixinha é melhor para a saúde do que tomar um copo de refrigerante. </pergunta>
+    <pergunta nivel="Dificil">Sucos de caixinha são feitos de pura fruta</pergunta>
+    <pergunta nivel="Dificil">Ao olhar o rótulo dos alimentos, devo escolher os que contem maior quantidade de sódio</pergunta>
+    <pergunta nivel="Dificil">Substituir sempre o jantar por lanches emagrece</pergunta>
+    <pergunta nivel="Dificil">Toddynho tem mais açúcar que um copo de coca-cola</pergunta>
+    <pergunta nivel="Dificil">Biscoitos recheados tem muitas vitaminas e fazem bem para a saúde</pergunta>
+    <pergunta nivel="Dificil">Guaraná natural faz bem à saúde</pergunta>
+    <pergunta nivel="Dificil">Biscoitos sem recheio não fazem mal à saúde</pergunta>
+    <pergunta nivel="Dificil">Posso almoçar assistindo TV.</pergunta>
+    <pergunta nivel="Dificil">Gordura trans faz bem para a saúde</pergunta>
+    <pergunta nivel="Dificil">Leite, queijo e iogurte são as principais fontes de cálcio na alimentação.</pergunta>
+    <pergunta nivel="Dificil">Devo diminuir o consumo de refrigerantes e de sucos industrializados, pois a maioria dessas bebidas contém corantes, aromatizantes e açúcar, que não são bons para a saúde. </pergunta>
+    <pergunta nivel="Dificil">Devo diminuir o tempo em frente á televisão e computador nas horas de lazer.</pergunta>
+    <pergunta nivel="Dificil">Guaraná natural é bom porque é natural</pergunta>
+    <pergunta nivel="Dificil">Quanto mais rápido eu comer, melhor</pergunta>
+    <pergunta nivel="Dificil">Pipoca e amendoim são alimentos saudáveis</pergunta>
+    <pergunta nivel="Dificil">Devo evitar beber líquidos em excesso durante as grandes refeições como almoço e jantar</pergunta>
+    <pergunta nivel="Dificil">Comer sanduíche natural é tão bom quanto comer comida</pergunta>
+    <pergunta nivel="Dificil">Uma lata de refrigerante do tipo cola contém cerca de sete a nove colheres de sopa de açúcar.</pergunta>
+  
+  </Grupo1>
+
+</Banco>
