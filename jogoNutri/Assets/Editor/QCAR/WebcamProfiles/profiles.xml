@@ -238,7 +238,7 @@
         </osx>
     </webcam>
 <webcam deviceName="WebCam SC-10HDP12631N">
-<windows>
+	<windows>
             <!-- size of the web cam texture requested from Unity -->
             <requestedTextureWidth>640</requestedTextureWidth>
             <requestedTextureHeight>480</requestedTextureHeight>

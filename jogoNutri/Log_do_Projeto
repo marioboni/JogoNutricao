@@ -1,0 +1,23 @@
+->  No inicio do jogo haverá 2 telas iniciais (SEM RA):
+	1ª: Cadastro da partida (Escola participante, Data, Turma etc);
+	2ª: Escolha dos personagens por grupo. Os grupos deverão tirar na sorte para saber quem começa primeiro. A professora deve, então, escolher os personagens de cada grupo de acordo.
+
+->  Para cada jogo, haverá um log xml indicando quantas perguntas (e de quais temas) cada grupo acertou/errou;
+    Salvar no arquivo xml a cada resposta dada.
+
+->  Qnd alg grupo chegar no final (ou seja, vencer o jogo), ler esse arquivo e apresentar tela do pódio com a indicação de perguntas certas/erradas por tema.
+
+->  Fazer a pergunta randomica uma vez. Caso ela já tenha sido escolhida, passar para a próxima da própria lista (não randomizar novamente!) - otimização.
+
+->  No caso da pergunta ultrapassar X caracteres (de acordo com a possível visualização na tela), quebrar a pergunta em várias linhas - para qnd a pergunta for mt 		grande e não couber no painel de visualização de perguntas.
+
+->  O marcador de cada grupo deverá ter: 
+	1- botão para girar o dado. (Deverá estar desabilitado quando a rodada for de outro player/grupo!)
+	2- botão para responder Verdadeiro.
+	3- botão para responder Falso.
+
+->  Ficaram nos devendo:
+	1- Gabarito das questões;
+	2- Explicação das questões;
+	3- Perguntas dos outros temas;
+	4- Design dos Heróis (?);

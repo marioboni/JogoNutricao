@@ -17,6 +17,7 @@ namespace Vuforia
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
+		public GameObject dice;
     
         #endregion // PRIVATE_MEMBER_VARIABLES
 
@@ -84,6 +85,11 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+
+			dice = GameObject.Find("Dice (1)");
+			dice.GetComponent<Rigidbody> ().velocity = new Vector3 (0, 0, 0);
+			dice.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
+			dice.transform.position = new Vector3(104f, 21f, -84f);
         }
 
 

@@ -19,11 +19,13 @@ public class VirtualButtonHandler : MonoBehaviour, IVirtualButtonEventHandler
 		{
 			vbs[i].RegisterEventHandler(this);
 		}	
+		dice = GameObject.Find("Dice (1)");
     }
 
 	void Update()
 	{
 		if (buttonPressed) {
+			Debug.Log("BOTAO PRESSED!!!");
 			dice.GetComponent<Rigidbody> ().AddForce (Random.onUnitSphere * forceAmount, forceMode);
 			dice.GetComponent<Rigidbody> ().AddTorque (Random.onUnitSphere * torqueAmount, forceMode);
 		}
