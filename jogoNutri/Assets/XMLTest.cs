@@ -42,6 +42,7 @@ public class XMLTest : MonoBehaviour {
 					u = Random.Range (0, maxGrupo[idGrupo]);		//Se ja: procuro outra.
 				}
 				grupo[idGrupo]--;              			    //Calculo o numero de perguntas restantes que podem ser exibidas.
+				text[idGrupo, u] = enquadraTexto(text[idGrupo, u]);
 				textoPergunta.text = text[idGrupo, u];		//Exibe na tela as perguntas conforme clicamos com o botao do mouse.
 				perguntaExibida[idGrupo, u] = 1;            //Marcando que a pergunta nao pode ser mais exibida.
 				script.GetComponent<Move>().okplayer = false;
@@ -97,5 +98,52 @@ public class XMLTest : MonoBehaviour {
 		else
 			EditorUtility.DisplayDialog ("Erro ao encontrar arquivo", Filelocation + FileName + " nao encontrado.", "ok");
 	}
+
+	public string enquadraTexto(string texto){
+
+		string[] linhasTexto;
+		string textoQuebrado = "";
+		int i;
+		bool verificador=true;
+
+		if(texto.Length > 83){
+			texto = quebraDeLinha(texto, 0); //Retorna o texto separado por marcadores @ onde devem ser feitas as quebras de linhas.
+			linhasTexto = texto.Split('@');	
+			for(i=0; i<linhasTexto.Length ;i++){
+				linhasTexto[i] = linhasTexto[i] + '\n';
+				textoQuebrado = textoQuebrado + linhasTexto[i];
+			}
+			verificador=false;
+		}
+		if(verificador) textoQuebrado = texto;
+
+		return textoQuebrado;
+	}
 	
+	public string quebraDeLinha(string texto, int indice){
+		
+		string linha="", textoRetorno="";
+		string[] palavrasTexto = texto.Split(' ');
+		bool temMaisLinha=false;
+		int i;
+
+		for(i=indice;i<palavrasTexto.Length;i++){
+			if(linha.Length + palavrasTexto[i].Length > 83){
+				indice = i;
+				linha = linha + "@";
+				textoRetorno = linha + quebraDeLinha(texto, indice);
+				temMaisLinha=true;
+				i=texto.Length;
+			}
+			if(!temMaisLinha){
+				linha = linha + palavrasTexto[i] + " ";
+				}
+		}
+		
+		if(!temMaisLinha){ 
+			textoRetorno=linha;
+		}
+
+		return textoRetorno;
+	}
 }

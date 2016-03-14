@@ -1,0 +1,34 @@
+int charMaximoTela = 100; //Número fixo (tenho que saber qual é)
+
+if(perguntaTexto.length() > charMaximoTela){
+	string = enquadraTexto(perguntaTexto, 0); //Retorna o texto separado por marcadores @ onde devem ser feitas as quebras de linha.
+	partes vão receber split por @. 
+	Exibir na tela parte1 + \n + parte2 + \n + (...)
+}
+
+
+
+public string enquadraTexto(string perguntaTexto, int indice){
+	
+	string linha;
+	bool temMaisLinha=false;
+
+	palavrasTexto split por espaço;
+	for(i=indice;i<palavrasTexto.length();i++){
+		if(linha.length() + palavrasTexto[i].length() > charMaximoTela){
+			indice=i;
+			linha = linha + "@";
+			textoRetorno = linha + enquadraTexto(perguntaTexto, indice);
+			temMaisLinha=true;
+			break;
+		}
+		linha = linha + palavrasTexto[i] + " ";
+	}
+
+	if(!temMaisLinha){
+		textoRetorno = linha;
+	}
+
+	return textoRetorno;
+
+}

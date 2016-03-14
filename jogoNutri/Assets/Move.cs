@@ -79,7 +79,7 @@ public class Move : MonoBehaviour {
 		dice = GameObject.Find ("Dice (1)");
 		current = dice.GetComponent<DisplayCurrentDieValue>().currentValue;
 
-		Debug.Log("Current: " + current);
+//		Debug.Log("Current: " + current);
 
 		if(i==3 || i==0){
 			i=0;
@@ -139,7 +139,7 @@ public class Move : MonoBehaviour {
 			}
 		}
 		else{
-			Debug.Log(move + " " + button.GetComponent<VirtualButtonHandler>().okdice + " " + dice.GetComponent<Rigidbody>().velocity);
+			//Debug.Log(move + " " + button.GetComponent<VirtualButtonHandler>().okdice + " " + dice.GetComponent<Rigidbody>().velocity);
 		}
 		
 		if (targetHouse > 17)

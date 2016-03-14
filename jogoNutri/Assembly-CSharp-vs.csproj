@@ -50,6 +50,7 @@
      <Compile Include="Assets\DieValue.cs" />
      <Compile Include="Assets\DisplayCurrentDieValue.cs" />
      <Compile Include="Assets\Move.cs" />
+     <Compile Include="Assets\QuebraDeLinha.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
